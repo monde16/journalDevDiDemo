@@ -6,10 +6,11 @@ import static org.nodexy.util.Misc.put;
 
 /**
  * Created by phoenix on 11/1/16.
+ * Simply sends an email batch.
  */
-public class MainApplication {
+public class MyApplication {
     private EmailService emailService;
-    public MainApplication() {
+    public MyApplication() {
         this.emailService=new EmailService();
     }
     public void processMessages(Map<String,String> messages) {
